@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micro Machines</title>
+    <!--link rel="stylesheet" href="styles/style.css"-->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+	    WebFont.load({
+		    google: {
+			    families: ['Roboto:300,400,700', 'Schoolbell: 300, 400, 600'],
+            },
+            loading: function() {
+		        console.log("Fonts are being loaded");
+	        },
+	        active: function() {
+		        console.log("Fonts have been rendered");
+            }
+        });
+    </script>
+    <!--script src="js/player.js"></script-->
+
+</head>
+<body>
+    <p>
+        <canvas id = "canvas" width="930" height="570"></canvas>
+    </p>
+
+    <p id="instruction" hidden = "true">
+        This game, bla bla bla
+    </p>
+    
+    <p>
+        <button id = "button">Start</button>
+    </p>
+
+    <p id = "text">This is text</p>
+
+    </p>
+    <!--script src="js/main.js"></script> -->
+    <script src="./js/main.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+
+canvas{
+    background: fixed;
+    background-image: url(../img/Background.jpg);
+    background-size: 68%;
+    background-repeat: no-repeat;
+    border: 1px solid;
+}
