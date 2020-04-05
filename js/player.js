@@ -24,4 +24,9 @@ class Player{
      }
 }
 
+class mainPlayer extends Player{
+    constructor();
+    super();
+}
+
 let mainPlayer = new Player(x, y, dx, dy, speed, "player.svg");

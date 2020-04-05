@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Micro Machines</title>
-    <!--link rel="stylesheet" href="styles/style.css"-->
+    <link rel="stylesheet" href="styles/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
 	    WebFont.load({
@@ -33,19 +33,32 @@
         <canvas id = "canvas" width="930" height="570"></canvas>
     </p>
 
-    <p id="instruction" hidden = "true">
-        This game is ...
-    </p>
+    <div id="sound">
+        <img src="img/sound.png" id= "isound" onclick="function sound()">
+        <img src="img/sound.png" id= "isoundOff" onclick="function sound()">
+    </div>
+
+    <div id="helper">
+        <h2>Instructions</h2>
+        <p>
+            This game is concepted for 1 or 2 players. First player always use arrows to move and the second
+            uses WASD keys on keyboard.<br>
+            Main goal of the game is to be the first at the finish line and collect as much as possible coins during the game. <br>
+            There are three possible levels - Low, Medium and Pro for choosing.
+        </p>
+        <button id="iback">Main Menu</button>
+        
+    </div>
+
+    <div id="name">
+        <h1>Micro Machines</h1>
+    </div>
     
-    <p>
-        <button id = "start" hidden = "true">Start</button>
-        <button id="main" hidden = "true"></button>
-    </p>
-
-    <p id = "text" hidden = "true">This is text</p>
-
-    </p>
-    <!--script src="js/main.js"></script> -->
+    <div id= "menu">
+        <button id = "start">START</button>
+        <button id = "help">Help</button>
+    </div>
+    
     <script src="./js/main.js"></script>
 
 

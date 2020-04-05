@@ -1,21 +1,13 @@
 
 let canvas = document.getElementById("canvas");
-//canvas.height = 570;
-canvas.width = 930;
 
 var ctx = canvas.getContext("2d");
 
-// nastavenie pozadia
-let bg = canvas.style.background;
-canvas.style.background = "url(../plan/Low.svg)";
-canvas.style.background = canvas.height;
-bg.size = "cover";
-
 // Vypísanie názvu hry
-ctx.font = "2.5em Arial";
-ctx.fillStyle = "white";
+ctx.font = "3em Arial";
+ctx.fillStyle = "black";
 ctx.textAlign = "center";
-ctx.fillText("Micro Machines", canvas.width/2, canvas.height/8);
+//ctx.fillText("Micro Machines", canvas.width/2, canvas.height/4);
 
 
 //vloženie aliasu hráča
@@ -28,19 +20,31 @@ protiHrac.src = "../alias/zelene2.svg";
 
 //-------------------------------
 
-// Prístup 2
-
 // Model
 
 var keys = {};
 
 var tick = 0;
+var btn;
+
+var alias = {
+    x : canvas.width /3,
+    y : canvas.height /2,
+    rotation : 0,
+    gravity : 0,
+    forward : -4,
+    backward : 3,
+    left : -3,
+    right : 3,
+    speed : 0,
+    maxSpeed : 5,
+}
 
 var player = {
     x : canvas.width /3,
     y : canvas.height /2,
     width : 80,
-    height : 142,
+    height : 145,
     image : hrac,
     rotation : 0,
     gravity : 0,
@@ -49,14 +53,23 @@ var player = {
     left : -3,
     right : 3,
     speed : 0,
+    maxSpeed : 5,
 }
 
 var oponent = {
-    x : canvas.width /3 + 50,
+    x : canvas.width /2 + 50,
     y : canvas.height/2,
-    dx : 10,
-    dy : 10,
-    image : protiHrac,
+    width : 80,
+    height : 145,
+    image : hrac,
+    rotation : 0,
+    gravity : 0,
+    forward : -4,
+    backward : 3,
+    left : -3,
+    right : 3,
+    speed : 0,
+    maxSpeed : 5,
 }
 
 function showName () {
@@ -67,6 +80,7 @@ function showName () {
 }
 
 function writeText(text){
+    clearCanvas();
     ctx.fillStyle = "black";
     ctx.fillText(text, canvas.width/2, canvas.height/2);
 }
@@ -80,7 +94,7 @@ function clearCanvas(){
 }
 
 function drawBg (){
-    bg.src = "url(../map/Low.svg)";
+    bg = "url(../plan/Low.svg)";
 }
 
 function drawAlias(){
@@ -88,14 +102,39 @@ function drawAlias(){
 }
 
 function drawOponent(){
-    ctx.drawImage(oponent.image, oponent.x, oponent.y);
+    //ctx.drawImage(oponent.image, oponent.x, oponent.y);
     //console.log(oponent.y + " " + oponent.y);
+    ctx.fillRect(oponent.x, oponent.y, oponent.width, oponent.height);
 }
 
 function gameOver(){
+    clearCanvas();
     writeText("Game Over!");
-    //document.getElementById("start").hidden = "false";
-    //let text = document.getElementById("text").hidden = "false";
+    var bg = canvas.style.background;
+    canvas.style.background = "url(../img/Background.jpg)"
+    canvas.style.background.size = "80% cover";
+    menu.style.display = "block";
+    gName.style.display = "block";
+    btn = 1;
+}
+
+function setBg(){
+    canvas.style.background = "../img/bg.jpg";
+}
+
+function help(){
+    clearCanvas();
+    menu.style.display = "none";
+    gName.style.display = "none";
+    document.getElementById("helper").style.display = "block";
+}
+
+function back(){
+    clearCanvas();
+   
+    document.getElementById("helper").style.display = "none";
+    menu.style.display = "block";
+    gName.style.display = "block";
 }
 
 
@@ -104,13 +143,11 @@ function gameOver(){
  // Controller //
 //------------//
 
-//drawAlias();
-
 function mainLoop(){
     clearCanvas();
     drawBg();
-    drawAlias();
     drawOponent();
+    drawAlias();
     player.move();
     colision(player);
     oponent.move();
@@ -123,36 +160,58 @@ function mainLoop(){
 var timer;
 
 function start(){
-    if(timer){
-       timer = clearInterval(timer);
-        startG.textContent = "Start";
+    clearCanvas();   
+    //canvas.style.background = "../map/Low.svg";
+    document.getElementById("canvas").style.background = "url(../plan/Low.svg)";
+
+    if(btn == 1){
+        console.log("Po Game over");
     }
-    else{
-        timer = setInterval(mainLoop, 1000/30);
-        startG.textContent = "Stop";
-    }
-}
+
+    menu.style.display = "none";
+    gName.style.display = "none";
+    requestAnimationFrame(mainLoop);
+    //writeText("Play!")
+}  
 
 window.onload = function(){
+    setBg();
     startG = this.document.getElementById("start");
-    text = document.getElementById("text");
-    canvas = this.document.getElementById("canvas");
-    startG.onclick = start;
+    //canvas = this.document.getElementById("canvas");
+    menu = document.getElementById("menu");
+    gName = document.getElementById("name");
+    inst = document.getElementById("help");
+    iback = document.getElementById("iback");
+    isound = document.getElementById("isound");
     
-    requestAnimationFrame(this.mainLoop);
+    startG.onclick = start;
+    inst.onclick = help;
+    iback.onclick = back;
+    isound.onclick = sound;
+    //requestAnimationFrame(this.mainLoop);
 }
 
 
 
 // Movement and speed
-//
+// Direction => forward/backward, obj => object to modify direction
 function moveY(direction, obj){
+    let pom = 0.2;
     obj.y += direction;
-    obj.direction += obj.speed;
-    obj.speed++;
-
-    console.log("Speed: " + player.speed);
-    console.log("Obj side: " + obj.direction + " obj forw: " + obj.forward);
+    //console.log("obj y: " +obj.y + " dir: " + direction);
+    
+    obj.y += obj.speed;
+    
+    if(Math.abs(obj.speed) < obj.maxSpeed && direction < 0)
+        obj.speed--;
+        // if(pom > 1)
+        //     obj.speed--;
+        // else
+        //     pom *= 20;
+    if(obj.speed < obj.maxSpeed - 3 && direction > 0)
+        obj.speed++;
+   
+    console.log("dir: " + direction + " speed: " + obj.speed);
   
 }
 
@@ -165,24 +224,68 @@ function moveS(side, obj){
 // Collision with canvas borders
 //
 function colision(obj){
-    if(obj.x + obj.width >= canvas.width || obj.x + 5 <= 0){
-        //console.log("Object collide to x: "+ obj.x );
-        gameOver();
-        obj.right = obj.left = obj.forward = obj.backward = 0;
+    if(!btn){
+        if(obj.x + obj.width >= canvas.width || obj.x + 5 <= 0){
+            //console.log("Object collide to x: "+ obj.x );
+            gameOver();
+            obj.right = obj.left = obj.forward = obj.backward = obj.speed = 0;
 
+            }
+        if(obj.y + obj.height >= canvas.height || obj.y <= 0){
+            //console.log("Object collide to y: " + obj.y);
+            gameOver();  
+            obj.right = obj.left = obj.forward = obj.backward = obj.speed = 0;              
+        }
     }
-    if(obj.y + obj.height >= canvas.height || obj.y <= 0){
-        //console.log("Object collide to y: " + obj.y);
-        gameOver();  
-        obj.right = obj.left = obj.forward = obj.backward = 0;
-              
+    else{
+        clearCanvas();
+        btn = 1;
+        setStart();
+        //start();
+        //console.log("Po...");
+        
     }
+   
 }
 
+function setStart(){
+    player.forward = alias.forward;
+    player.backward = alias.backward;
+    player.left = alias.left;
+    player.right = alias.right;
+    player.speed = alias.speed;
+    player.x = alias.x;
+    player.y = alias.y;
+}
 
+function objCol(){
+
+}
+
+// Sound components
+//
+
+let check = 1;
+
+function sound(){
+    if(check){
+        ctx.beginPath();
+        ctx.moveTo(30,35);
+        ctx.lineTo(80, 85);
+        ctx.lineWidth = 6;
+        ctx.strokeStyle = "red";
+        ctx.stroke();
+        check = 0;
+    }
+    else if(check == 0){
+        clearCanvas();
+        check = 1;
+        console.log("Check: " + check);
+    }
+    console.log("Click: " + check);
+}
 
 //----------------------------------------------------------------------------------------------
-
 
 // Obj moving with arrow
 //
@@ -207,14 +310,25 @@ player.move = function(){
 }
 
 // oponent moving with WASD
+
 oponent.move = function(){
-    if(keys[65]) alias.dx -= 5;
-    if(keys[68]) alias.dx += 5;
-    if(keys[87]) alias.dy -= 5;
-    if(keys[83]) alias.dy += 5;
+    if(keys[65]){
+        moveS(this.left, oponent);
+        colision(oponent);
+    }
+    if(keys[68]){
+        moveS(this.right, oponent);
+        colision(oponent);
+    }
+    if(keys[87]){
+        moveY(this.forward, oponent);
+        colision(oponent);
+    }
+    if(keys[83]){
+        moveY(this.backward, oponent); 
+        colision(oponent);
+    }
 }
-
-
 
 // Keyboard handler
 
@@ -225,6 +339,4 @@ window.onkeydown = function(){
 window.onkeyup = function(){
     keys[event.keyCode] = false;
 }
-
-
 
