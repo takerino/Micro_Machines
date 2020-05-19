@@ -38,19 +38,6 @@
          height="260"
          width="260" />
     </pattern>
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter1730"
-       x="-0.011204332"
-       width="1.0224087"
-       y="-0.012871396"
-       height="1.0257428">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="1.2313073"
-         id="feGaussianBlur1732" />
-    </filter>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -60,19 +47,19 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35355339"
-     inkscape:cx="-924.42101"
-     inkscape:cy="1567.0892"
+     inkscape:cx="510.88213"
+     inkscape:cy="99.290156"
      inkscape:document-units="mm"
-     inkscape:current-layer="g875"
+     inkscape:current-layer="g1062"
      showgrid="false"
      units="px"
      showguides="false"
      inkscape:guide-bbox="true"
      inkscape:snap-bbox="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1013"
-     inkscape:window-x="-9"
-     inkscape:window-y="-9"
+     inkscape:window-height="1027"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:snap-global="false">
     <sodipodi:guide
@@ -142,20 +129,23 @@
        id="g875"
        transform="matrix(2.0036354,0,0,1.9966838,-0.18967466,-296.3918)">
       <g
-         id="g1105">
+         id="g1062"
+         transform="matrix(0.55943281,-0.00637769,0.00593582,0.59691422,-79.720802,152.50496)">
         <g
-           transform="matrix(0.55943281,-0.00637769,0.00593582,0.59691422,-79.720802,152.50496)"
-           id="g1062">
+           id="g1028" />
+        <g
+           id="g1271"
+           transform="translate(70.213918,-10.551894)"
+           inkscape:export-xdpi="33"
+           inkscape:export-ydpi="33">
           <g
-             id="g1922"
-             inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_h.png"
-             inkscape:export-xdpi="33"
-             inkscape:export-ydpi="33">
+             transform="matrix(0.68187466,-1.1410603e-5,-1.1329125e-5,0.68294228,28.236065,58.585657)"
+             id="g1205">
             <rect
                inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
                inkscape:export-ydpi="33"
                inkscape:export-xdpi="33"
-               transform="matrix(0.99994293,0.01068382,-0.01060983,0.99994371,0,0)"
+               transform="matrix(0.99994293,0.01068382,-0.01060983,0.99994371,-9.4058214,5.5505492)"
                rx="0"
                ry="0"
                y="15.905991"
@@ -163,360 +153,368 @@
                height="229.58951"
                width="263.74954"
                id="rect863"
-               style="opacity:1;fill:#845f11;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1730)" />
+               style="opacity:1;fill:#845f11;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1746-3"
-               d="M 167.03731,52.867436 213.542,53.364312"
-               style="fill:none;stroke:#000000;stroke-width:0.24492368px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+               d="m 161.76187,58.462116 42.37426,0.452745"
+               style="fill:none;stroke:#000000;stroke-width:0.23383857px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1612-6"
-               d="m 139.36123,17.274673 -2.4281,228.841367"
+               d="m 129.95541,22.825222 -2.4281,228.841368"
                style="fill:none;stroke:#000000;stroke-width:0.22889902px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1612"
-               d="m 120.45301,17.63125 -2.4281,228.84138"
+               d="m 111.04719,23.181799 -2.4281,228.841381"
                style="fill:none;stroke:#000000;stroke-width:0.22889902px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1612-60"
-               d="m 154.92191,17.44093 -2.4281,228.84144"
+               d="m 145.51609,22.991479 -2.4281,228.841441"
                style="fill:none;stroke:#000000;stroke-width:0.22889902px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1612-3"
-               d="m 171.55861,17.618684 -2.4281,228.841466"
+               d="M 162.15279,23.169233 159.72469,252.0107"
                style="fill:none;stroke:#000000;stroke-width:0.22889902px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1612-5"
-               d="m 187.54737,17.943201 -2.4281,228.841459"
+               d="m 178.14155,23.49375 -2.4281,228.84146"
                style="fill:none;stroke:#000000;stroke-width:0.22889902px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1612-63"
-               d="m 201.48432,17.938423 -2.4281,228.841417"
+               d="M 192.0785,23.488972 189.6504,252.33039"
                style="fill:none;stroke:#000000;stroke-width:0.22889902px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1612-2"
-               d="m 252.59452,18.484507 -2.4281,228.841403"
+               d="M 243.1887,24.035056 240.7606,252.87646"
                style="fill:none;stroke:#000000;stroke-width:0.22889902px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1612-0"
-               d="m 213.91766,18.071266 -2.4281,228.841414"
+               d="m 204.51184,23.621815 -2.4281,228.841415"
                style="fill:none;stroke:#000000;stroke-width:0.22889902px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1612-8"
-               d="m 227.10201,18.212133 -2.4281,228.841417"
+               d="M 217.69619,23.762682 215.26809,252.6041"
                style="fill:none;stroke:#000000;stroke-width:0.22889902px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1612-1"
-               d="m 239.48301,18.344414 -2.4281,228.841396"
+               d="m 230.07719,23.894963 -2.4281,228.841397"
                style="fill:none;stroke:#000000;stroke-width:0.22889902px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1612-58"
-               d="M 264.6941,18.613784 262.266,247.4552"
+               d="m 255.28828,24.164333 -2.4281,228.841417"
                style="fill:none;stroke:#000000;stroke-width:0.22889902px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1612-4"
-               d="m 276.83538,18.743506 -2.4281,228.841414"
+               d="m 267.42956,24.294055 -2.4281,228.841415"
                style="fill:none;stroke:#000000;stroke-width:0.22889902px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1612-9"
-               d="m 289.73515,18.881333 -2.4281,228.841377"
+               d="m 280.32933,24.431882 -2.4281,228.841378"
                style="fill:none;stroke:#000000;stroke-width:0.22889902px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1612-46"
-               d="m 302.86332,19.0216 -2.4281,228.84143"
+               d="M 293.4575,24.572149 291.0294,253.41358"
                style="fill:none;stroke:#000000;stroke-width:0.22889902px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1612-55"
-               d="m 318.67658,19.190556 -2.4281,228.841424"
+               d="m 309.27076,24.741105 -2.4281,228.841425"
                style="fill:none;stroke:#000000;stroke-width:0.22889902px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1612-51"
-               d="m 334.74638,19.362253 -2.4281,228.841417"
+               d="m 325.34056,24.912802 -2.4281,228.841418"
                style="fill:none;stroke:#000000;stroke-width:0.22889902px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1612-45"
-               d="m 351.68576,19.54324 -2.4281,228.84142"
+               d="m 342.27994,25.093789 -2.4281,228.841421"
                style="fill:none;stroke:#000000;stroke-width:0.22889902px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-            <path
-               inkscape:export-ydpi="33"
-               inkscape:export-xdpi="33"
-               inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
-               sodipodi:nodetypes="ccccscccccc"
-               inkscape:connector-curvature="0"
-               id="path1356-3"
-               d="m 153.70656,26.055479 c -18.9903,0.634014 -32.6348,15.227995 -31.53887,33.618923 -0.006,0.742289 -0.012,3.782718 0.0246,4.523788 0,0 11.13045,0.118931 18.80696,0.200967 2.57179,-16.108707 6.10866,-21.62193 13.41825,-21.443554 7.62287,0.186021 10.20555,4.988164 12.56012,21.455897 7.67803,0.08204 18.81396,0.377811 18.81396,0.377811 l 0.002,-0.254648 c 0.17807,-1.384664 0.27915,-2.779603 0.30268,-4.177215 0.2751,-19.117627 -10.76255,-31.860624 -30.42803,-34.1042 z"
-               style="opacity:1;fill:#e71414;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1746-5-4-2"
-               d="m 289.17162,166.49971 37.44715,0.40011"
-               style="fill:none;stroke:#000000;stroke-width:0.22001772px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-            <path
-               inkscape:export-ydpi="33"
-               inkscape:export-xdpi="33"
-               inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
-               sodipodi:nodetypes="ccccscccccc"
-               inkscape:connector-curvature="0"
-               id="path1356-6-4"
-               d="m 230.60568,132.64333 c -44.48453,-0.86598 -67.35494,13.20457 -64.91476,34.70398 -0.003,0.85316 -0.36138,7.47238 -0.27494,8.32458 0,0 1.64085,0.15783 17.56542,0.32798 0.30681,-25.63424 32.48754,-22.80253 48.2119,-23.07379 18.93452,-0.32664 49.70007,2.75745 45.52214,24.30904 15.92773,0.17018 19.07043,-1.02046 19.07043,-1.02046 l -1.3965,0.70733 c 0.35579,-1.58982 0.85001,-3.26822 0.88504,-4.87444 1.45802,-26.15968 -25.10429,-39.89336 -64.52847,-39.52774 z"
-               style="opacity:1;fill:#e71414;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+               d="m 278.59663,172.11626 45.12432,0.48214"
+               style="fill:none;stroke:#000000;stroke-width:0.24142128px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1746-5-4"
-               d="m 118.30559,217.61865 37.10293,0.39643"
-               style="fill:none;stroke:#000000;stroke-width:0.2190084px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-            <path
-               inkscape:export-ydpi="33"
-               inkscape:export-xdpi="33"
-               inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
-               sodipodi:nodetypes="ccccscccccc"
-               inkscape:connector-curvature="0"
-               id="path1356-3-1"
-               d="m 151.71838,235.09807 c -18.97253,-1.03963 -32.30429,-15.92184 -30.81839,-34.28517 0.0102,-0.74225 0.0683,-3.78213 0.12063,-4.52224 0,0 11.13044,0.11891 18.80696,0.20091 2.2294,16.16 5.64849,21.74755 12.96021,21.72539 7.62508,-0.0231 10.30908,-4.76897 13.01252,-21.18267 7.67803,0.082 18.81772,0.0243 18.81772,0.0243 l -0.003,0.25464 c 0.14865,1.38816 0.22011,2.78494 0.21398,4.18273 -0.13053,19.11917 -11.43607,31.62345 -31.1447,33.44634 z"
-               style="opacity:1;fill:#e71414;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+               d="m 108.89957,223.1692 51.12213,0.54622"
+               style="fill:none;stroke:#000000;stroke-width:0.25688845px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1746"
-               d="m 119.58496,95.815763 49.13028,0.52493"
-               style="fill:none;stroke:#000000;stroke-width:0.25188833px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-            <rect
-               inkscape:export-ydpi="33"
-               inkscape:export-xdpi="33"
-               inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
-               style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               id="rect1319"
-               width="16.667868"
-               height="144.01321"
-               x="124.43433"
-               y="56.960743"
-               transform="matrix(0.99994293,0.01068383,-0.0106098,0.99994371,0,0)" />
-            <path
-               inkscape:export-ydpi="33"
-               inkscape:export-xdpi="33"
-               inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
-               sodipodi:nodetypes="ccccscccccc"
-               inkscape:connector-curvature="0"
-               id="path1356-6-4-0"
-               d="m 230.76689,131.53282 c -44.49281,-0.0846 -67.05948,-14.64072 -64.16367,-36.083112 0.015,-0.853041 -0.20274,-7.478414 -0.0983,-8.328564 0,0 1.64384,-0.122736 17.56841,0.04738 -0.23719,25.634986 31.99633,23.491506 47.71137,24.098666 18.92331,0.73114 49.74733,-1.6949 46.02763,-23.330877 15.92772,0.170175 19.04445,1.42769 19.04445,1.42769 l -1.38119,-0.736995 c 0.32199,1.597058 0.78048,3.285636 0.78143,4.892233 0.90261,26.184909 -25.94508,39.347929 -65.35256,38.140039 z"
-               style="opacity:1;fill:#e71414;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-            <rect
-               inkscape:export-ydpi="33"
-               inkscape:export-xdpi="33"
-               inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
-               style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               id="rect1319-0"
-               width="16.667868"
-               height="39.006302"
-               x="168.08826"
-               y="56.58633"
-               transform="matrix(0.99994293,0.01068382,-0.01060983,0.99994371,0,0)" />
-            <path
-               inkscape:export-ydpi="33"
-               inkscape:export-xdpi="33"
-               inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
-               style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               d="m 154.44785,28.018784 c -16.75852,-0.178895 -30.48047,12.548175 -30.64894,28.426808 -0.004,0.614193 0.0123,1.228381 0.0494,1.841621 0,0 9.35415,0.09996 16.6415,0.177825 2.42056,-13.325622 6.78097,-16.409168 13.72014,-16.252056 7.23654,0.163847 11.10613,2.912299 13.36259,16.541408 7.28878,0.07788 16.64994,0.177888 16.64994,0.177888 l -0.0171,1.617733 c 0.16725,-1.145494 0.26141,-2.29959 0.28192,-3.455998 0.16844,-15.878833 -13.28067,-28.896294 -30.03939,-29.075229 z"
-               id="path1356"
-               inkscape:connector-curvature="0"
-               sodipodi:nodetypes="ccccsccccc" />
-            <rect
-               inkscape:export-ydpi="33"
-               inkscape:export-xdpi="33"
-               inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
-               ry="1.5001374"
-               transform="matrix(0.99994293,0.01068384,-0.01060981,0.99994371,0,0)"
-               y="141.49272"
-               x="322.94571"
-               height="3.0002749"
-               width="16.667868"
-               id="rect1173"
-               style="opacity:1;fill:#000000;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+               d="m 110.17912,101.36631 51.13301,0.54633"
+               style="fill:none;stroke:#000000;stroke-width:0.25694928px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1746-5-6"
-               d="m 252.09689,57.716639 37.44715,0.40011"
+               d="m 242.69107,63.267188 37.44715,0.40011"
                style="fill:none;stroke:#000000;stroke-width:0.22001772px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1746-5-4-6"
-               d="m 325.11492,58.904337 37.44715,0.40011"
-               style="fill:none;stroke:#000000;stroke-width:0.22001772px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+               d="m 324.88819,64.552959 28.26795,0.302036"
+               style="fill:none;stroke:#000000;stroke-width:0.19126451px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1746-5-4-9"
-               d="m 297.07612,33.155433 37.44715,0.40011"
-               style="fill:none;stroke:#000000;stroke-width:0.22001772px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-            <path
-               inkscape:export-ydpi="33"
-               inkscape:export-xdpi="33"
-               inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
-               sodipodi:nodetypes="ccccscccccc"
-               inkscape:connector-curvature="0"
-               id="path1356-3-0"
-               d="m 308.42893,23.392053 c -18.9903,0.634014 -32.6348,15.227995 -31.53887,33.618923 -0.006,0.742289 -0.012,3.782718 0.0246,4.523789 0,0 11.13045,0.11893 18.80696,0.200966 2.57179,-16.108707 6.10866,-21.62193 13.41825,-21.443554 7.62287,0.186022 10.20555,4.988165 12.56012,21.455897 7.67803,0.08205 18.81396,0.377812 18.81396,0.377812 l 0.002,-0.254649 c 0.17807,-1.384664 0.27915,-2.779601 0.30268,-4.177215 0.27518,-19.117626 -10.76247,-31.860624 -30.42795,-34.1042 z"
-               style="opacity:1;fill:#e71414;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-            <path
-               inkscape:export-ydpi="33"
-               inkscape:export-xdpi="33"
-               inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
-               sodipodi:nodetypes="ccccscccccc"
-               inkscape:connector-curvature="0"
-               id="path1356-3-12"
-               d="m 306.11868,241.12341 c -18.97253,-1.03962 -32.30429,-15.92182 -30.81839,-34.28516 0.0102,-0.74225 0.0684,-3.78212 0.12063,-4.52224 0,0 11.13044,0.11891 18.80696,0.20092 2.22941,16.16 5.64849,21.74754 12.96021,21.72538 7.62508,-0.0231 10.30908,-4.76897 13.01252,-21.18266 7.67803,0.082 18.81771,0.0243 18.81771,0.0243 l -0.003,0.25463 c 0.14865,1.38817 0.22011,2.78494 0.21397,4.18274 -0.13052,19.11916 -11.43606,31.62344 -31.14469,33.44633 z"
-               style="opacity:1;fill:#e71414;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+               d="m 280.32619,38.706001 44.79053,0.47857"
+               style="fill:none;stroke:#000000;stroke-width:0.24053082px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1746-5-4-1"
-               d="m 323.81874,183.46558 37.44715,0.40011"
-               style="fill:none;stroke:#000000;stroke-width:0.22001772px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-            <rect
-               inkscape:export-ydpi="33"
-               inkscape:export-xdpi="33"
-               inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
-               style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               id="rect1319-5"
-               width="16.667868"
-               height="153.19357"
-               x="323.01517"
-               y="52.343315"
-               transform="matrix(0.99994293,0.01068382,-0.01060983,0.99994371,0,0)" />
-            <path
-               inkscape:export-ydpi="33"
-               inkscape:export-xdpi="33"
-               inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
-               style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               d="m 309.29348,25.034143 c -16.75852,-0.178895 -30.48047,12.548174 -30.64894,28.426808 -0.004,0.614193 0.0123,1.22838 0.0494,1.841621 0,0 9.35414,0.09996 16.64149,0.177824 2.42056,-13.325621 6.78097,-16.409167 13.72014,-16.252055 7.23654,0.163847 11.10613,2.912299 13.36259,16.54141 7.28878,0.07788 16.64994,0.177887 16.64994,0.177887 l -0.0171,1.61773 c 0.16725,-1.145493 0.26141,-2.29959 0.28192,-3.455997 0.16844,-15.878832 -13.28067,-28.896294 -30.03939,-29.075228 z"
-               id="path1356-74"
-               inkscape:connector-curvature="0"
-               sodipodi:nodetypes="ccccsccccc" />
-            <rect
-               inkscape:export-ydpi="33"
-               inkscape:export-xdpi="33"
-               inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
-               transform="matrix(0.99994293,0.01068382,-0.01060983,0.99994371,0,0)"
-               style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               id="rect1319-5-0"
-               width="16.667868"
-               height="43.691311"
-               x="279.26199"
-               y="52.151798" />
-            <path
-               inkscape:export-ydpi="33"
-               inkscape:export-xdpi="33"
-               inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
-               style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               d="m 230.59868,129.42464 c -35.30587,-0.37739 -63.78313,-14.21834 -63.61467,-30.096974 0.0116,-0.614125 -0.0127,-1.356951 0.0856,-1.96875 -0.25248,-0.116872 1.29092,0.0096 16.64348,0.173545 4.65942,13.401279 32.52588,14.840349 47.14767,14.913589 15.24839,0.0764 42.22319,-0.24293 47.42539,-13.79238 12.08352,0.910738 16.60273,-4.897817 16.60969,0.186617 -0.16857,15.878813 -28.98872,30.963163 -64.29504,30.585813 z"
-               id="path1356-73"
-               inkscape:connector-curvature="0"
-               sodipodi:nodetypes="ccccscccc" />
+               d="m 323.50856,189.11331 28.3514,0.30293"
+               style="fill:none;stroke:#000000;stroke-width:0.19154558px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1746-5-8"
-               d="m 174.48391,176.4378 37.44715,0.40011"
-               style="fill:none;stroke:#000000;stroke-width:0.22001772px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-            <rect
-               inkscape:export-ydpi="33"
-               inkscape:export-xdpi="33"
-               inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
-               transform="matrix(0.99994293,0.01068383,0.01060983,-0.99994371,0,0)"
-               style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               id="rect1319-0-2"
-               width="16.667868"
-               height="39.006302"
-               x="168.18193"
-               y="-201.85832" />
-            <path
-               inkscape:export-ydpi="33"
-               inkscape:export-xdpi="33"
-               inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
-               style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               d="m 152.26044,233.18678 c -16.75852,-0.17922 -30.2073,-13.19659 -30.03883,-29.07522 0.009,-0.61415 0.0384,-1.22784 0.0884,-1.84016 0,0 9.35415,0.0999 16.6415,0.17778 2.13725,13.37433 6.43125,16.55035 13.37218,16.54153 7.23838,-0.009 11.16542,-2.67434 13.71055,-16.25215 7.5029,1.5525 16.82762,-3.59793 16.87569,2.02141 -0.16852,15.87883 -13.89079,28.60598 -30.64951,28.42681 z"
-               id="path1356-35"
-               inkscape:connector-curvature="0"
-               sodipodi:nodetypes="ccccscccc" />
-            <path
-               inkscape:export-ydpi="33"
-               inkscape:export-xdpi="33"
-               inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
-               style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               d="m 307.04689,239.38211 c -16.75852,-0.17922 -30.20731,-13.1966 -30.03882,-29.07523 0.009,-0.61415 0.0384,-1.22784 0.0885,-1.84015 0,0 9.35415,0.0999 16.64149,0.17778 2.13727,13.37432 6.43126,16.55035 13.3722,16.54153 7.23838,-0.009 11.1654,-2.67435 13.71054,-16.25215 7.28878,0.0778 16.64993,0.1779 16.64993,0.1779 l 0.0172,-1.61774 c 0.14291,1.14882 0.21256,2.30466 0.20853,3.46124 -0.16852,15.87884 -13.89079,28.60599 -30.64951,28.42682 z"
-               id="path1356-74-9"
-               inkscape:connector-curvature="0"
-               sodipodi:nodetypes="ccccsccccc" />
+               d="m 160.36337,181.93798 42.16193,0.45048"
+               style="fill:none;stroke:#000000;stroke-width:0.23339805px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1746-5-68"
-               d="m 250.83411,182.18717 37.44715,0.40011"
-               style="fill:none;stroke:#000000;stroke-width:0.22001772px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
-            <rect
-               inkscape:export-ydpi="33"
-               inkscape:export-xdpi="33"
-               inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
-               transform="matrix(0.99994293,0.01068383,0.01060983,-0.99994371,0,0)"
-               style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               id="rect1319-5-0-9"
-               width="16.667868"
-               height="43.691311"
-               x="279.27432"
-               y="-205.63136" />
-            <path
-               inkscape:export-ydpi="33"
-               inkscape:export-xdpi="33"
-               inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
-               style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-               d="m 230.50201,134.27439 c -35.30588,-0.37707 -64.07036,12.85229 -64.23887,28.73092 -8.8e-4,0.61424 0.0945,1.43109 0.17973,2.04485 -0.0331,0.16943 1.15488,-0.0568 16.50744,0.10738 4.94271,-13.29869 32.83338,-14.14202 47.45341,-13.90283 15.24656,0.24943 42.20847,1.14503 47.12199,14.80257 12.10012,-0.65235 16.60588,5.21947 16.72073,0.13634 0.16838,-15.87882 -28.43601,-31.54355 -63.74232,-31.92066 z"
-               id="path1356-73-3"
-               inkscape:connector-curvature="0"
-               sodipodi:nodetypes="ccccscccc" />
-            <rect
-               inkscape:export-ydpi="33"
-               inkscape:export-xdpi="33"
-               inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
-               ry="0.84382737"
-               transform="matrix(0.99994293,0.01068384,-0.01060981,0.99994371,0,0)"
-               y="175.14999"
-               x="323.17508"
-               height="2.1657128"
-               width="16.500345"
-               id="rect1040"
-               style="opacity:1;fill:#000000;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+               d="m 241.42829,187.73772 37.23853,0.39788"
+               style="fill:none;stroke:#000000;stroke-width:0.21940656px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1746-5"
-               d="m 212.293,166.2349 38.74059,0.41393"
+               d="m 202.88718,171.78545 38.74059,0.41393"
                style="fill:none;stroke:#000000;stroke-width:0.22376913px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1746-5-9"
-               d="m 213.62348,37.447199 38.65714,0.413038"
+               d="m 204.21766,42.997748 38.65714,0.413038"
                style="fill:none;stroke:#000000;stroke-width:0.22352903px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1746-5-4-4"
-               d="m 99.489495,53.634371 20.590855,0.22001"
+               d="m 90.083674,59.18492 20.590856,0.22001"
                style="fill:none;stroke:#000000;stroke-width:0.16332634px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
             <path
                inkscape:connector-curvature="0"
                id="path1746-5-4-7"
-               d="m 98.260522,193.98929 20.335408,0.21728"
+               d="m 88.854701,199.53984 20.335409,0.21728"
                style="fill:none;stroke:#000000;stroke-width:0.16231328px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+          </g>
+          <g
+             transform="matrix(0.70237813,0,0,0.70237813,26.241915,57.515529)"
+             id="g1169">
+            <g
+               id="g1208">
+              <path
+                 inkscape:export-ydpi="33"
+                 inkscape:export-xdpi="33"
+                 inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
+                 sodipodi:nodetypes="ccccscccccc"
+                 inkscape:connector-curvature="0"
+                 id="path1356-3-1"
+                 d="m 142.31256,240.64862 c -18.97253,-1.03963 -32.30429,-15.92184 -30.81839,-34.28517 0.0102,-0.74225 0.0683,-3.78213 0.12063,-4.52224 0,0 11.13044,0.11891 18.80696,0.20091 2.2294,16.16 5.64849,21.74755 12.96021,21.72539 7.62508,-0.0231 10.30908,-4.76897 13.01252,-21.18267 7.67803,0.082 18.81772,0.0243 18.81772,0.0243 l -0.003,0.25464 c 0.14865,1.38816 0.22011,2.78494 0.21398,4.18273 -0.13053,19.11917 -11.43607,31.62345 -31.1447,33.44634 z"
+                 style="opacity:1;fill:#e71414;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+            </g>
+            <g
+               id="g1140">
+              <path
+                 inkscape:export-ydpi="33"
+                 inkscape:export-xdpi="33"
+                 inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
+                 sodipodi:nodetypes="ccccscccccc"
+                 inkscape:connector-curvature="0"
+                 id="path1356-3-12"
+                 d="m 296.71286,246.67396 c -18.97253,-1.03962 -32.30429,-15.92182 -30.81839,-34.28516 0.0102,-0.74225 0.0684,-3.78212 0.12063,-4.52224 0,0 11.13044,0.11891 18.80696,0.20092 2.22941,16.16 5.64849,21.74754 12.96021,21.72538 7.62508,-0.0231 10.30908,-4.76897 13.01252,-21.18266 7.67803,0.082 18.81771,0.0243 18.81771,0.0243 l -0.003,0.25463 c 0.14865,1.38817 0.22011,2.78494 0.21397,4.18274 -0.13052,19.11916 -11.43606,31.62344 -31.14469,33.44633 z"
+                 style="opacity:1;fill:#e71414;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+              <g
+                 id="g1087">
+                <g
+                   id="g1113">
+                  <g
+                     id="g1063">
+                    <g
+                       id="g1093">
+                      <path
+                         inkscape:export-ydpi="33"
+                         inkscape:export-xdpi="33"
+                         inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
+                         sodipodi:nodetypes="ccccscccccc"
+                         inkscape:connector-curvature="0"
+                         id="path1356-6-4"
+                         d="m 221.19986,138.19388 c -44.48453,-0.86598 -67.35494,13.20457 -64.91476,34.70398 -0.003,0.85316 -0.36138,7.47238 -0.27494,8.32458 0,0 1.64085,0.15783 17.56542,0.32798 0.30681,-25.63424 32.48754,-22.80253 48.2119,-23.07379 18.93452,-0.32664 49.70007,2.75745 45.52214,24.30904 15.92773,0.17018 19.07043,-1.02046 19.07043,-1.02046 l -1.3965,0.70733 c 0.35579,-1.58982 0.85001,-3.26822 0.88504,-4.87444 1.45802,-26.15968 -25.10429,-39.89336 -64.52847,-39.52774 z"
+                         style="opacity:1;fill:#e71414;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                      <path
+                         inkscape:export-ydpi="33"
+                         inkscape:export-xdpi="33"
+                         inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
+                         style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                         d="m 142.85462,238.73733 c -16.75852,-0.17922 -30.2073,-13.19659 -30.03883,-29.07522 0.009,-0.61415 0.0384,-1.22784 0.0884,-1.84016 0,0 9.35415,0.0999 16.6415,0.17778 2.13725,13.37433 6.43125,16.55035 13.37218,16.54153 7.23838,-0.009 11.16542,-2.67434 13.71055,-16.25215 7.5029,1.5525 16.82762,-3.59793 16.87569,2.02141 -0.16852,15.87883 -13.89079,28.60598 -30.64951,28.42681 z"
+                         id="path1356-35"
+                         inkscape:connector-curvature="0"
+                         sodipodi:nodetypes="ccccscccc" />
+                      <path
+                         inkscape:export-ydpi="33"
+                         inkscape:export-xdpi="33"
+                         inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
+                         style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                         d="m 297.64107,244.93266 c -16.75852,-0.17922 -30.20731,-13.1966 -30.03882,-29.07523 0.009,-0.61415 0.0384,-1.22784 0.0885,-1.84015 0,0 9.35415,0.0999 16.64149,0.17778 2.13727,13.37432 6.43126,16.55035 13.3722,16.54153 7.23838,-0.009 11.1654,-2.67435 13.71054,-16.25215 7.28878,0.0778 16.64993,0.1779 16.64993,0.1779 l 0.0172,-1.61774 c 0.14291,1.14882 0.21256,2.30466 0.20853,3.46124 -0.16852,15.87884 -13.89079,28.60599 -30.64951,28.42682 z"
+                         id="path1356-74-9"
+                         inkscape:connector-curvature="0"
+                         sodipodi:nodetypes="ccccsccccc" />
+                    </g>
+                    <g
+                       id="g999"
+                       transform="translate(-2.8138794e-7,1.0176398e-5)">
+                      <g
+                         id="g1018">
+                        <g
+                           id="g993">
+                          <path
+                             inkscape:export-ydpi="33"
+                             inkscape:export-xdpi="33"
+                             inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
+                             sodipodi:nodetypes="ccccscccccc"
+                             inkscape:connector-curvature="0"
+                             id="path1356-3"
+                             d="m 144.30074,31.606028 c -18.9903,0.634014 -32.6348,15.227995 -31.53887,33.618923 -0.006,0.742289 -0.012,3.782718 0.0246,4.523788 0,0 11.13045,0.118931 18.80696,0.200967 2.57179,-16.108707 6.10866,-21.62193 13.41825,-21.443554 7.62287,0.186021 10.20555,4.988164 12.56012,21.455897 7.67803,0.08204 18.81396,0.377811 18.81396,0.377811 l 0.002,-0.254648 c 0.17807,-1.384664 0.27915,-2.779603 0.30268,-4.177215 0.2751,-19.117627 -10.76255,-31.860624 -30.42803,-34.1042 z"
+                             style="opacity:1;fill:#e71414;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                          <rect
+                             inkscape:export-ydpi="33"
+                             inkscape:export-xdpi="33"
+                             inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
+                             style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                             id="rect1319"
+                             width="16.667868"
+                             height="144.01321"
+                             x="115.08793"
+                             y="62.611465"
+                             transform="matrix(0.99994293,0.01068383,-0.0106098,0.99994371,0,0)" />
+                          <path
+                             inkscape:export-ydpi="33"
+                             inkscape:export-xdpi="33"
+                             inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
+                             sodipodi:nodetypes="ccccscccccc"
+                             inkscape:connector-curvature="0"
+                             id="path1356-6-4-0"
+                             d="m 221.36107,137.08337 c -44.49281,-0.0846 -67.05948,-14.64072 -64.16367,-36.08311 0.015,-0.85304 -0.20274,-7.478417 -0.0983,-8.328567 0,0 1.64384,-0.122736 17.56841,0.04738 -0.23719,25.634987 31.99633,23.491507 47.71137,24.098667 18.92331,0.73114 49.74733,-1.6949 46.02763,-23.330878 15.92772,0.170175 19.04445,1.42769 19.04445,1.42769 l -1.38119,-0.736995 c 0.32199,1.597058 0.78048,3.285636 0.78143,4.892233 0.90261,26.18491 -25.94508,39.34793 -65.35256,38.14004 z"
+                             style="opacity:1;fill:#e71414;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                          <rect
+                             inkscape:export-ydpi="33"
+                             inkscape:export-xdpi="33"
+                             inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
+                             style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                             id="rect1319-0"
+                             width="16.667868"
+                             height="39.006302"
+                             x="158.74185"
+                             y="62.237053"
+                             transform="matrix(0.99994293,0.01068382,-0.01060983,0.99994371,0,0)" />
+                          <path
+                             inkscape:export-ydpi="33"
+                             inkscape:export-xdpi="33"
+                             inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
+                             style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                             d="m 145.04203,33.569333 c -16.75852,-0.178895 -30.48047,12.548175 -30.64894,28.426808 -0.004,0.614193 0.0123,1.228381 0.0494,1.841621 0,0 9.35415,0.09996 16.6415,0.177825 2.42056,-13.325622 6.78097,-16.409168 13.72014,-16.252056 7.23654,0.163847 11.10613,2.912299 13.36259,16.541408 7.28878,0.07788 16.64994,0.177888 16.64994,0.177888 l -0.0171,1.617733 c 0.16725,-1.145494 0.26141,-2.29959 0.28192,-3.455998 0.16844,-15.878833 -13.28067,-28.896294 -30.03939,-29.075229 z"
+                             id="path1356"
+                             inkscape:connector-curvature="0"
+                             sodipodi:nodetypes="ccccsccccc" />
+                          <path
+                             inkscape:export-ydpi="33"
+                             inkscape:export-xdpi="33"
+                             inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
+                             style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                             d="m 221.19286,134.97519 c -35.30587,-0.37739 -63.78313,-14.21834 -63.61467,-30.09697 0.0116,-0.61413 -0.0127,-1.35696 0.0856,-1.96875 -0.25248,-0.11688 1.29092,0.01 16.64348,0.17354 4.65942,13.40128 32.52588,14.84035 47.14767,14.91359 15.24839,0.0764 42.22319,-0.24293 47.42539,-13.79238 12.08352,0.91074 16.60273,-4.897818 16.60969,0.18662 -0.16857,15.87881 -28.98872,30.96316 -64.29504,30.58581 z"
+                             id="path1356-73"
+                             inkscape:connector-curvature="0"
+                             sodipodi:nodetypes="ccccscccc" />
+                        </g>
+                        <path
+                           inkscape:export-ydpi="33"
+                           inkscape:export-xdpi="33"
+                           inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
+                           sodipodi:nodetypes="ccccscccccc"
+                           inkscape:connector-curvature="0"
+                           id="path1356-3-0"
+                           d="m 299.02311,28.942602 c -18.9903,0.634014 -32.6348,15.227995 -31.53887,33.618923 -0.006,0.742289 -0.012,3.782718 0.0246,4.523789 0,0 11.13045,0.11893 18.80696,0.200966 2.57179,-16.108707 6.10866,-21.62193 13.41825,-21.443554 7.62287,0.186022 10.20555,4.988165 12.56012,21.455897 7.67803,0.08205 18.81396,0.377812 18.81396,0.377812 l 0.002,-0.254649 c 0.17807,-1.384664 0.27915,-2.779601 0.30268,-4.177215 0.27518,-19.117626 -10.76247,-31.860624 -30.42795,-34.1042 z"
+                           style="opacity:1;fill:#e71414;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+                        <rect
+                           inkscape:export-ydpi="33"
+                           inkscape:export-xdpi="33"
+                           inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
+                           style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                           id="rect1319-5"
+                           width="16.667868"
+                           height="153.19357"
+                           x="313.66876"
+                           y="57.994038"
+                           transform="matrix(0.99994293,0.01068382,-0.01060983,0.99994371,0,0)" />
+                        <path
+                           inkscape:export-ydpi="33"
+                           inkscape:export-xdpi="33"
+                           inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
+                           style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                           d="m 299.88766,30.584692 c -16.75852,-0.178895 -30.48047,12.548174 -30.64894,28.426808 -0.004,0.614193 0.0123,1.22838 0.0494,1.841621 0,0 9.35414,0.09996 16.64149,0.177824 2.42056,-13.325621 6.78097,-16.409167 13.72014,-16.252055 7.23654,0.163847 11.10613,2.912299 13.36259,16.54141 7.28878,0.07788 16.64994,0.177887 16.64994,0.177887 l -0.0171,1.61773 c 0.16725,-1.145493 0.26141,-2.29959 0.28192,-3.455997 0.16844,-15.878832 -13.28067,-28.896294 -30.03939,-29.075228 z"
+                           id="path1356-74"
+                           inkscape:connector-curvature="0"
+                           sodipodi:nodetypes="ccccsccccc" />
+                      </g>
+                      <rect
+                         y="57.802521"
+                         x="269.91559"
+                         height="43.691311"
+                         width="16.667868"
+                         id="rect1319-5-0"
+                         style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                         transform="matrix(0.99994293,0.01068382,-0.01060983,0.99994371,0,0)"
+                         inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
+                         inkscape:export-xdpi="33"
+                         inkscape:export-ydpi="33" />
+                    </g>
+                  </g>
+                </g>
+                <rect
+                   y="-207.50905"
+                   x="158.83553"
+                   height="39.006302"
+                   width="16.667868"
+                   id="rect1319-0-2"
+                   style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                   transform="matrix(0.99994294,0.01068383,0.01060983,-0.9999437,-3.8847148e-7,-4.320415e-7)"
+                   inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
+                   inkscape:export-xdpi="33"
+                   inkscape:export-ydpi="33" />
+                <rect
+                   y="-211.28209"
+                   x="269.92792"
+                   height="43.691311"
+                   width="16.667868"
+                   id="rect1319-5-0-9"
+                   style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                   transform="matrix(0.99994294,0.01068383,0.01060983,-0.9999437,-3.8847148e-7,-4.320415e-7)"
+                   inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
+                   inkscape:export-xdpi="33"
+                   inkscape:export-ydpi="33" />
+                <path
+                   sodipodi:nodetypes="ccccscccc"
+                   inkscape:connector-curvature="0"
+                   id="path1356-73-3"
+                   d="m 221.09619,139.82494 c -35.30588,-0.37707 -64.07036,12.85229 -64.23887,28.73092 -8.8e-4,0.61424 0.0945,1.43109 0.17973,2.04485 -0.0331,0.16943 1.15488,-0.0568 16.50744,0.10738 4.94271,-13.29869 32.83338,-14.14202 47.45341,-13.90283 15.24656,0.24943 42.20847,1.14503 47.12199,14.80257 12.10012,-0.65235 16.60588,5.21947 16.72073,0.13634 0.16838,-15.87882 -28.43601,-31.54355 -63.74232,-31.92066 z"
+                   style="opacity:1;fill:#365e5c;fill-opacity:1;stroke:#30ff00;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                   inkscape:export-filename="D:\Skola\1. ročník\ZTIAP\Projekt\KB 2\mapa_hard.png"
+                   inkscape:export-xdpi="33"
+                   inkscape:export-ydpi="33" />
+              </g>
+            </g>
           </g>
         </g>
       </g>

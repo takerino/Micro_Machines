@@ -3,12 +3,6 @@ let canvas = document.getElementById("canvas");
 
 var ctx = canvas.getContext("2d");
 
-// Vypísanie názvu hry
-ctx.font = "3em Arial";
-ctx.fillStyle = "black";
-ctx.textAlign = "center";
-//ctx.fillText("Micro Machines", canvas.width/2, canvas.height/4);
-
 
 //vloženie aliasu hráča
 
@@ -22,10 +16,24 @@ protiHrac.src = "../alias/zelene2.svg";
 
 // Model
 
+
+// Globalne premenne, ktore maju vyznam iba takto
 var keys = {};
 
 var tick = 0;
-var btn;
+var col;
+var bcg = "../plan/Med.svg";
+
+let check = 1;
+
+
+// Mapy
+// Low
+
+let mapLow = {}
+
+
+//------------------------------------
 
 var alias = {
     x : canvas.width /3,
@@ -69,7 +77,7 @@ var oponent = {
     left : -3,
     right : 3,
     speed : 0,
-    maxSpeed : 5,
+    maxSpeed : 4,
 }
 
 function showName () {
@@ -81,8 +89,11 @@ function showName () {
 
 function writeText(text){
     clearCanvas();
+    ctx.font = "3em Arial";
     ctx.fillStyle = "black";
-    ctx.fillText(text, canvas.width/2, canvas.height/2);
+    ctx.textAlign = "center";
+    ctx.fillStyle = "black";
+    ctx.fillText(text, canvas.width/2, canvas.height/5);
 }
 
 //----
@@ -93,12 +104,26 @@ function clearCanvas(){
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 }
 
+// Vycisti ovladacie prvky umiestnene nad canvasom 
+function clearElements(){
+    document.getElementById("helper").style.display = "none";
+    document.getElementById("level").style.display = "none";
+    document.getElementById("hraci").style.display = "none";
+    document.getElementById("names").style.display = "none";
+    document.getElementById("name1").style.display = "none";
+    document.getElementById("lead").style.display = "none";
+    menu.style.display = "none";
+    gName.style.display = "none";
+}
+
 function drawBg (){
-    bg = "url(../plan/Low.svg)";
+    bg = "url(../plan/low_new.svg)";
 }
 
 function drawAlias(){
+    clearCanvas();
     ctx.drawImage(player.image, player.x, player.y);
+    //console.log("Alias vykresleny na y: " + player.y + " x: " + player.x);
 }
 
 function drawOponent(){
@@ -107,15 +132,21 @@ function drawOponent(){
     ctx.fillRect(oponent.x, oponent.y, oponent.width, oponent.height);
 }
 
+
+// Hra sama o sebe vo svojej pointe GameOver nemá => nerieši sa kolízia objektov pre ukončenie hry, iba pre spomalenie ich rýchlosti
+// a vytvorenie animácie narazenia, aby si to hráč uvedomil, je tu ale implementovaná kvôli zadaniu a potrebe pre KB3
 function gameOver(){
+    crash.volume = 0.3;
+    //crash.play();
     clearCanvas();
-    writeText("Game Over!");
-    var bg = canvas.style.background;
+   
     canvas.style.background = "url(../img/Background.jpg)"
     canvas.style.background.size = "80% cover";
     menu.style.display = "block";
     gName.style.display = "block";
-    btn = 1;
+    showName();
+    writeText("Game Over!");
+    col = 1;
 }
 
 function setBg(){
@@ -129,12 +160,17 @@ function help(){
     document.getElementById("helper").style.display = "block";
 }
 
-function back(){
+function menuBack(){
     clearCanvas();
-   
-    document.getElementById("helper").style.display = "none";
+    clearElements();
+  
     menu.style.display = "block";
     gName.style.display = "block";
+}
+
+function back(){
+    document.getElementById("hraci").style.display = "none";
+    document.getElementById("level").style.display = "block";
 }
 
 
@@ -146,12 +182,12 @@ function back(){
 function mainLoop(){
     clearCanvas();
     drawBg();
-    drawOponent();
+    //drawOponent();
     drawAlias();
     player.move();
     colision(player);
-    oponent.move();
-    colision(oponent);
+    //oponent.move();
+    //colision(oponent);
     //showName();   
 
     requestAnimationFrame(mainLoop);
@@ -161,33 +197,158 @@ var timer;
 
 function start(){
     clearCanvas();   
-    //canvas.style.background = "../map/Low.svg";
+    clearElements();
+    
     document.getElementById("canvas").style.background = "url(../plan/Low.svg)";
 
-    if(btn == 1){
+    if(col == 1){
         console.log("Po Game over");
+        col = 0;
     }
 
-    menu.style.display = "none";
-    gName.style.display = "none";
+    if(pname){
+        alert("Meno hraca: "+pname.value);
+    }
+    if(p1Name && p2Name){
+        //alert("Meno 1: " + p1Name + " Meno 2: " + p2Name);
+        
+    }
+
+   
+    console.log("Hra sa spustila");
     requestAnimationFrame(mainLoop);
-    //writeText("Play!")
 }  
+
+function level(){
+    clearElements();
+    sound();
+ 
+    console.log("Volba urovne"); 
+
+    document.getElementById("level").style.display = "block";
+
+    writeText("Choose map for your game");
+}
+
+function hraci(){
+    //clearCanvas();
+    clearElements();
+    sound();
+
+    writeText("Number of players")
+
+    console.log("Volba poctu hracov");
+    document.getElementById("hraci").style.display = "block";
+
+    
+}
+
+var p1Name
+var p2Name
+
+function names(){
+    clearCanvas();
+    clearElements();
+  
+    writeText("Write player names");
+    document.getElementById("names").style.display = "block";
+
+    p1Name = document.getElementById("player1").value;
+    p2Name = document.getElementById("player2").value;
+
+    console.log("Player 1 name" + p1Name); 
+    console.log("Player 2 name" + p2Name); 
+
+    
+}
+
+var pname
+
+function name1(){
+    clearCanvas();
+    clearElements();
+    
+    writeText("Write your name")
+    document.getElementById("name1").style.display = "block";
+
+    pname = document.getElementById("player");
+    console.log("Player name " + pname.value);
+
+    //alert("Meno hraca: "+pname.value)
+
+}
+
+
+
+function chooseLow(){
+    console.log("Zvoleny low");
+    bg = "url(../map/Low.svg)";
+    hraci();
+}
+
+function chooseMed(){
+    console.log("Zvoleny medium");
+    hraci();
+}
+
+function choosePro(){
+    console.log("Zvoleny Profesional");
+    hraci();
+}
+
+function lead(){
+    clearElements();
+
+    document.getElementById("lead").style.display = "block";
+}
+
+
+
+// Nacitanie hlavnych komponentov hry
 
 window.onload = function(){
     setBg();
+    canvas = document.getElementById("canvas");
+
+    //ctx = canvas.getcontext("2d");
+
     startG = this.document.getElementById("start");
-    //canvas = this.document.getElementById("canvas");
     menu = document.getElementById("menu");
     gName = document.getElementById("name");
     inst = document.getElementById("help");
     iback = document.getElementById("iback");
     isound = document.getElementById("isound");
+    hudba = document.getElementById("hudba");
+    crash = document.getElementById("crash");
+    menu = document.getElementById("mainMenu");
+    one = document.getElementById("oneplayer");
+    two = document.getElementById("twoplayer");
+    hback = document.getElementById("back");
+    playB1 = document.getElementById("play1");
+    playB2 = document.getElementById("play2");
+    score = document.getElementById("score");
+    mMenu = document.getElementById("mMenu");
     
-    startG.onclick = start;
+    startG.onclick = level;
     inst.onclick = help;
-    iback.onclick = back;
+    iback.onclick = menuBack;
     isound.onclick = sound;
+    menu.onclick = menuBack;
+    mMenu.onclick = menuBack;
+    playB1.onclick = this.start;
+    playB2.onclick = this.start;
+
+    score.onclick = lead;
+
+
+    one.onclick = name1;
+    two.onclick = names;
+
+    hback.onclick = back;
+    
+    hudba.load();
+
+    sound();
     //requestAnimationFrame(this.mainLoop);
 }
 
@@ -211,7 +372,7 @@ function moveY(direction, obj){
     if(obj.speed < obj.maxSpeed - 3 && direction > 0)
         obj.speed++;
    
-    console.log("dir: " + direction + " speed: " + obj.speed);
+    //console.log("dir: " + direction + " speed: " + obj.speed);
   
 }
 
@@ -219,27 +380,34 @@ function moveY(direction, obj){
 function moveS(side, obj){
     obj.x += side;
     obj.rotation = 5;
+    ctx.save();
+    ctx.translate(canvas.width/2, canvas.height/2);
+    ctx.restore();
+
 }
 
 // Collision with canvas borders
 //
 function colision(obj){
-    if(!btn){
+    if(!col){
         if(obj.x + obj.width >= canvas.width || obj.x + 5 <= 0){
             //console.log("Object collide to x: "+ obj.x );
             gameOver();
             obj.right = obj.left = obj.forward = obj.backward = obj.speed = 0;
+        }
 
-            }
         if(obj.y + obj.height >= canvas.height || obj.y <= 0){
             //console.log("Object collide to y: " + obj.y);
+            clearCanvas();
+            col = 1;
             gameOver();  
             obj.right = obj.left = obj.forward = obj.backward = obj.speed = 0;              
         }
     }
     else{
         clearCanvas();
-        btn = 1;
+        console.log("Vykreslujem po game over")
+        col = 0;
         setStart();
         //start();
         //console.log("Po...");
@@ -249,40 +417,45 @@ function colision(obj){
 }
 
 function setStart(){
+    player.x = alias.x;
+    player.y = alias.y;
     player.forward = alias.forward;
     player.backward = alias.backward;
     player.left = alias.left;
     player.right = alias.right;
     player.speed = alias.speed;
-    player.x = alias.x;
-    player.y = alias.y;
-}
-
-function objCol(){
-
 }
 
 // Sound components
 //
 
-let check = 1;
+
 
 function sound(){
+    var time = 0;
+
     if(check){
+        hudba.pause();
         ctx.beginPath();
         ctx.moveTo(30,35);
         ctx.lineTo(80, 85);
         ctx.lineWidth = 6;
-        ctx.strokeStyle = "red";
+        ctx.strokeStyle = "black";
         ctx.stroke();
         check = 0;
+        //time = hudba.currentTime();
+       
     }
     else if(check == 0){
         clearCanvas();
         check = 1;
-        console.log("Check: " + check);
+        console.log("Check: " + check);       
+        //hudba.load();
+        hudba.play();
     }
+    
     console.log("Click: " + check);
+
 }
 
 //----------------------------------------------------------------------------------------------
