@@ -6,6 +6,9 @@ var Loader = {
     images: {}
 };
 
+var context;
+var pause = 0;
+
 Loader.loadImage = function (key, src) {
     var img = new Image();
 
@@ -89,44 +92,59 @@ Game.run = function (context) {
         this.init();
         window.requestAnimationFrame(this.tick);
     }.bind(this));
+
+    Screen.gameScreen;
 };
 
 Game.tick = function (elapsed) {
     window.requestAnimationFrame(this.tick);
 
     // clear previous frame
-    this.ctx.clearRect(0, 0, 930, 570);
+    this.ctx.clearRect(0, 0, 1030, 570);
 
-    // compute delta time in seconds -- also cap it
+    // compute delta time
     var delta = (elapsed - this._previousElapsed) / 1000.0;
-    delta = Math.min(delta, 0.25); // maximum delta of 250 ms
+    delta = Math.min(delta, 0.25);
     this._previousElapsed = elapsed;
 
     this.update(delta);
     this.render();
 }.bind(Game);
 
-// override these methods to create the demo
+
 Game.init = function () {};
 Game.update = function (delta) {};
 Game.render = function () {};
+
 
 //
 // start up function
 //
 
 window.onload = function () {
-    var context = document.getElementById('canvas').getContext('2d');
+    context = document.getElementById('canvas').getContext('2d');
     
     // Save the buttons listeners to variables
     startButton = document.getElementById('start');
     scoreButton = document.getElementById('score');
     helpButton = document.getElementById('help');
-    mapToMenu = document.getElementById('home'); // Pri volbe mapy
+    mapToMenu = document.getElementById('home'); 
     helpToMenu = document.getElementById('home1');
     scoreToMenu = document.getElementById('home2');
+
+    onePlayer = document.getElementById('oneplayer');
+    twoPlayers = document.getElementById('twoplayer');
+    playersToMap = document.getElementById('back');
+
+    playGameOne = document.getElementById('play1');
+    playGameTwo = document.getElementById('play2');
     
+    music = document.getElementById('hudba');
+    pause = document.getElementById('ipause');
     
+    endGame = document.getElementById('endGame');
+    cancel = document.getElementById('cancel');
+
     // Listen on click 
     
     startButton.onclick = Screen.level;
@@ -135,10 +153,20 @@ window.onload = function () {
     mapToMenu.onclick = Screen.displayMenu;
     helpToMenu.onclick = Screen.displayMenu;
     scoreToMenu.onclick = Screen.displayMenu;
-   
+
+    onePlayer.onclick = Screen.name1;
+    twoPlayers.onclick = Screen.names;
+    playersToMap.onclick = Screen.back;  
     
-    menu = document.getElementById("mainMenu");
     
+    playGameOne.onclick = Screen.gameStart;
+    playGameTwo.onclick = Screen.gameStart;
+    
+    pause.onclick = Screen.gamePause;
+    cancel.onclick = Screen.gamePause;
+    endGame.onclick = Screen.displayMenu;
+    
+    music.load();
 
     //Game.run(context);
 };
